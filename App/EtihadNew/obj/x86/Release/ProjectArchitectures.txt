@@ -1,0 +1,4 @@
+C:\lens\EtihadNew\App\EtihadNew\EtihadNew.csproj;x86
+C:\lens\EtihadNew\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
+C:\lens\EtihadNew\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj;x86
+C:\lens\EtihadNew\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj;x86

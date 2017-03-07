@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{D888F164-8A90-0A3E-D32B-F10BBAD1E17D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_0;UNITY_5_4;UNITY_5;UNITY_ANALYTICS;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;ENABLE_HOLOLENS_MODULE_API;UNITY_METRO;UNITY_METRO_API;UNITY_WINRT;ENABLE_WINRT_PINVOKE;ENABLE_TEXTUREID_MAP;ENABLE_LAZY_METHOD_CACHING;ENABLE_MOVIES;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_EVENT_QUEUE;ENABLE_NETWORK;UNITY_PLATFORM_THREAD_TO_CORE_MAPPING;ENABLE_SUBSTANCE;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITYWEBREQUEST;CURL_STATICLIB;UNITY_WSA;ENABLE_DOTNET;ENABLE_PROFILER;UNITY_WSA_10_0;UNITY_WINRT_10_0;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files\Unity HoloLens 5.4.0f3-HTP\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity HoloLens 5.4.0f3-HTP/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Etihad\ActivateManipulation.cs" />
+     <Compile Include="Assets\Etihad\ActivateModelGrab.cs" />
+     <Compile Include="Assets\Etihad\ActivateUIMenu.cs" />
+     <Compile Include="Assets\Etihad\AircraftHand.cs" />
+     <Compile Include="Assets\Etihad\SpatialMapping.cs" />
+     <Compile Include="Assets\Etihad\TapToPlaceParent.cs" />
+     <Compile Include="Assets\EtihadNew\App.cs" />
+     <Compile Include="Assets\EtihadNew\Properties\AssemblyInfo.cs" />
+     <Compile Include="Assets\HoloToolkit\Input\Scripts\CursorFeedback.cs" />
+     <Compile Include="Assets\HoloToolkit\Input\Scripts\CursorManager.cs" />
+     <Compile Include="Assets\HoloToolkit\Input\Scripts\GazeManager.cs" />
+     <Compile Include="Assets\HoloToolkit\Input\Scripts\GazeStabilizer.cs" />
+     <Compile Include="Assets\HoloToolkit\Input\Scripts\GestureManager.cs" />
+     <Compile Include="Assets\HoloToolkit\Input\Scripts\HandGuidance.cs" />
+     <Compile Include="Assets\HoloToolkit\Input\Scripts\HandsManager.cs" />
+     <Compile Include="Assets\HoloToolkit\Utilities\Scripts\Billboard.cs" />
+     <Compile Include="Assets\HoloToolkit\Utilities\Scripts\DirectionIndicator.cs" />
+     <Compile Include="Assets\HoloToolkit\Utilities\Scripts\Interpolator.cs" />
+     <Compile Include="Assets\HoloToolkit\Utilities\Scripts\SimpleTagalong.cs" />
+     <Compile Include="Assets\HoloToolkit\Utilities\Scripts\Singleton.cs" />
+     <Compile Include="Assets\Holograms\Support\AstroMan\SetRendererSettings.cs" />
+     <Compile Include="Assets\Holograms\Support\Fitbox\Fitbox.cs" />
+     <Compile Include="Assets\Holograms\Support\Fitbox\Interpolator.cs" />
+     <Compile Include="Assets\Scripts\AstronautManager.cs" />
+     <Compile Include="Assets\Scripts\DismissOnSelect.cs" />
+     <Compile Include="Assets\Scripts\ExpandModel.cs" />
+     <Compile Include="Assets\Scripts\ExpandObject.cs" />
+     <Compile Include="Assets\Scripts\GestureAction.cs" />
+     <Compile Include="Assets\Scripts\Interactible.cs" />
+     <Compile Include="Assets\Scripts\InteractibleAction.cs" />
+     <Compile Include="Assets\Scripts\InteractibleManager.cs" />
+     <Compile Include="Assets\Scripts\ScaleObject.cs" />
+     <Compile Include="Assets\Scripts\UIBoxInteractible.cs" />
+     <Compile Include="Assets\Scripts\UIBoxSingleton.cs" />
+     <Compile Include="Assets\Scripts\WorldCursor.cs" />
+     <None Include="Assets\Players\UAP\ARM\release\WinRTBridge\Properties\WinRTBridge.rd.xml" />
+     <None Include="Assets\Players\UAP\x86\master\WinRTBridge\Properties\WinRTBridge.rd.xml" />
+     <None Include="Assets\Players\UAP\x86\debug\WinRTBridge\Properties\WinRTBridge.rd.xml" />
+     <None Include="Assets\EtihadNew\Data\managedAssemblies.txt" />
+     <None Include="Assets\Players\UAP\x86\debug\UnityEngineProxy\Properties\UnityEngineProxy.rd.xml" />
+     <None Include="Assets\UnityOverwrite.txt" />
+     <None Include="Assets\EtihadNew\Properties\Default.rd.xml" />
+     <None Include="Assets\HoloToolkit\Utilities\Shaders\VertexLitConfigurableTransparent.shader" />
+     <None Include="Assets\HoloToolkit\Utilities\Shaders\LambertianConfigurableTransparent.shader" />
+     <None Include="Assets\Players\UAP\ARM\master\UnityEngineProxy\Properties\UnityEngineProxy.rd.xml" />
+     <None Include="Assets\Players\UAP\x64\debug\UnityEngineProxy\Properties\UnityEngineProxy.rd.xml" />
+     <None Include="Assets\Players\UAP\x64\debug\WinRTBridge\Properties\WinRTBridge.rd.xml" />
+     <None Include="Assets\HoloToolkit\Utilities\Shaders\VertexLitConfigurable.shader" />
+     <None Include="Assets\Players\UAP\x86\release\UnityEngineProxy\Properties\UnityEngineProxy.rd.xml" />
+     <None Include="Assets\HoloToolkit\Utilities\Shaders\StandardFast.shader" />
+     <None Include="Assets\Players\UAP\x64\master\UnityEngineProxy\Properties\UnityEngineProxy.rd.xml" />
+     <None Include="Assets\Players\UAP\x64\release\WinRTBridge\Properties\WinRTBridge.rd.xml" />
+     <None Include="Assets\Players\UAP\ARM\release\UnityEngineProxy\Properties\UnityEngineProxy.rd.xml" />
+     <None Include="Assets\Resources\Shaders\SpecularHighlight.shader" />
+     <None Include="Assets\Resources\Shaders\UITransparent.shader" />
+     <None Include="Assets\Resources\Shaders\StandardFastBackFaceCulling.shader" />
+     <None Include="Assets\Players\UAP\x64\master\WinRTBridge\Properties\WinRTBridge.rd.xml" />
+     <None Include="Assets\Players\UAP\x86\master\UnityEngineProxy\Properties\UnityEngineProxy.rd.xml" />
+     <None Include="Assets\HoloToolkit\Utilities\Shaders\UnlitConfigurableTransparent.shader" />
+     <None Include="Assets\HoloToolkit\Utilities\Shaders\UnlitConfigurable.cginc" />
+     <None Include="Assets\HoloToolkit\Utilities\Shaders\LambertianConfigurable.shader" />
+     <None Include="Assets\Players\UAP\x64\release\UnityEngineProxy\Properties\UnityEngineProxy.rd.xml" />
+     <None Include="Assets\Players\UAP\x86\release\WinRTBridge\Properties\WinRTBridge.rd.xml" />
+     <None Include="Assets\HoloToolkit\Utilities\Shaders\VertexLitConfigurable.cginc" />
+     <None Include="Assets\HoloToolkit\Utilities\Shaders\UnlitConfigurable.shader" />
+     <None Include="Assets\Players\UAP\ARM\debug\UnityEngineProxy\Properties\UnityEngineProxy.rd.xml" />
+     <None Include="Assets\HoloToolkit\Utilities\Shaders\LambertianConfigurable.cginc" />
+     <None Include="Assets\Players\UAP\ARM\debug\WinRTBridge\Properties\WinRTBridge.rd.xml" />
+     <None Include="Assets\Players\UAP\ARM\master\WinRTBridge\Properties\WinRTBridge.rd.xml" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity HoloLens 5.4.0f3-HTP/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity HoloLens 5.4.0f3-HTP/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity HoloLens 5.4.0f3-HTP/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity HoloLens 5.4.0f3-HTP/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Runtime/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>C:/Program Files/Unity HoloLens 5.4.0f3-HTP/Editor/Data/UnityExtensions/Unity/UnityVR/Runtime/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngineProxy">
+ <HintPath>C:/lens/EtihadNew/Assets/Players/UAP/x86/debug/UnityEngineProxy.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngineProxy">
+ <HintPath>C:/lens/EtihadNew/Assets/Players/UAP/ARM/release/UnityEngineProxy.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Cecil.Mdb">
+ <HintPath>C:/lens/EtihadNew/Assets/Unity/Tools/Mono.Cecil.Mdb.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Cecil">
+ <HintPath>C:/lens/EtihadNew/Assets/Unity/Tools/Mono.Cecil.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Cecil.Pdb">
+ <HintPath>C:/lens/EtihadNew/Assets/Unity/Tools/SerializationWeaver/Mono.Cecil.Pdb.dll</HintPath>
+ </Reference>
+ <Reference Include="WinRTLegacy">
+ <HintPath>C:/lens/EtihadNew/Assets/EtihadNew/Unprocessed/WinRTLegacy.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Cecil">
+ <HintPath>C:/lens/EtihadNew/Assets/Unity/Tools/SerializationWeaver/Mono.Cecil.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngineProxy">
+ <HintPath>C:/lens/EtihadNew/Assets/Players/UAP/x86/release/UnityEngineProxy.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/lens/EtihadNew/Assets/EtihadNew/Unprocessed/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.SerializationWeaver">
+ <HintPath>C:/lens/EtihadNew/Assets/Unity/Tools/SerializationWeaver/Unity.SerializationWeaver.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.UNetWeaver">
+ <HintPath>C:/lens/EtihadNew/Assets/Unity/Tools/SerializationWeaver/Unity.UNetWeaver.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngineProxy">
+ <HintPath>C:/lens/EtihadNew/Assets/Players/UAP/x64/master/UnityEngineProxy.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Cecil.Pdb">
+ <HintPath>C:/lens/EtihadNew/Assets/Unity/Tools/Mono.Cecil.Pdb.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngineProxy">
+ <HintPath>C:/lens/EtihadNew/Assets/Players/UAP/x64/release/UnityEngineProxy.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>C:/lens/EtihadNew/Assets/EtihadNew/Unprocessed/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/lens/EtihadNew/Assets/EtihadNew/Unprocessed/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.SerializationWeaver.Common">
+ <HintPath>C:/lens/EtihadNew/Assets/Unity/Tools/SerializationWeaver/Unity.SerializationWeaver.Common.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/lens/EtihadNew/Assets/EtihadNew/Unprocessed/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngineProxy">
+ <HintPath>C:/lens/EtihadNew/Assets/Players/UAP/ARM/debug/UnityEngineProxy.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/lens/EtihadNew/Assets/EtihadNew/Unprocessed/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngineProxy">
+ <HintPath>C:/lens/EtihadNew/Assets/Players/UAP/ARM/master/UnityEngineProxy.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Cecil.Mdb">
+ <HintPath>C:/lens/EtihadNew/Assets/Unity/Tools/SerializationWeaver/Mono.Cecil.Mdb.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Cecil.Rocks">
+ <HintPath>C:/lens/EtihadNew/Assets/Unity/Tools/SerializationWeaver/Mono.Cecil.Rocks.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.SerializationLogic">
+ <HintPath>C:/lens/EtihadNew/Assets/Unity/Tools/SerializationWeaver/Unity.SerializationLogic.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.CecilTools">
+ <HintPath>C:/lens/EtihadNew/Assets/Unity/Tools/SerializationWeaver/Unity.CecilTools.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngineProxy">
+ <HintPath>C:/lens/EtihadNew/Assets/Players/UAP/x86/master/UnityEngineProxy.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngineProxy">
+ <HintPath>C:/lens/EtihadNew/Assets/Players/UAP/x64/debug/UnityEngineProxy.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
